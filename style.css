@@ -1,0 +1,35 @@
+
+body{
+    background: black;
+    
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: green;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.sty{
+    display: flex;
+}
+
+.sty1{
+    height: 80vh;
+    width: 90vh;
+    margin-left: 7vh;
+}
+
+.sty1:nth-child(1){
+    background:green;
+}
+
+.sty1:nth-child(2){
+    background:blue;
+}
